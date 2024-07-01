@@ -11,4 +11,5 @@ function increment (){
 function save(){
     saveCount.textContent += count + " - "
     count.innerText = 0
+    count = 0
 }
